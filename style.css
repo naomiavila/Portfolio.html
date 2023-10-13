@@ -1,0 +1,22 @@
+th{
+    background-color: lightgrey;
+}
+table, th, td {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+th, td {
+    padding: 10px;
+}
+table {
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100x;
+    margin-bottom: 100px;
+}
+.img1, .img2, .img3 {
+    height: 2in; width: 2.5in;
+    border: 5px; border-color: red;
+    padding: 30px;
+}
