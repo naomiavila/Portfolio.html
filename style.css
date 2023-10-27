@@ -40,3 +40,27 @@ a:hover {
 .styled-list li:nth-child(3) a:active {
     color: orange;
 }
+/* For table */
+.table {
+    /* Add any other styles for the table if needed */
+}
+/* For borderd table */
+.table-bordered {
+    /* Add any other styles or bordered table if needed */
+}
+/* For striped rows */
+.table-striped tbody tr:nth-of-type(odd) {
+   background-color: rgba(red, green, blue, alpha); 
+}
+/* For dropdown button */
+.dropdown-toggle {
+    /* any other styles for toggle */
+}
+/* For dropdown menu items */
+.dropdown-item {
+    / any other style
+}
+/* For collapsed content */
+.collapsed-content {
+    /* Add any additional styles for the collapsed content if needed */
+}
