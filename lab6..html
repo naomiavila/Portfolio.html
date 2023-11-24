@@ -223,3 +223,34 @@ table, th, td {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Event Example</title>
+</head>
+<body>
+
+    <button id="changeTextBtn">Change Text</button>
+    <p id="displayText">Original Text</p>
+
+    <script>
+        // Get references to the button and paragraph using getElementById
+        var button = document.getElementById("changeTextBtn");
+        var paragraph = document.getElementById("displayText");
+
+        // Add an event listener to the button for the "click" event
+        button.addEventListener("click", function() {
+            // Call the displayText function to change the paragraph's text
+            changeText();
+        });
+
+        // Function to change the paragraph's text
+        function changeText() {
+            paragraph.innerHTML = "Hello, JavaScript World!";
+        }
+    </script>
+
+</body>
+</html>
